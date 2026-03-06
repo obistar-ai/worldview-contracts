@@ -1,0 +1,10 @@
+{
+  "contract": "TaskContract",
+  "version": "1.0",
+  "required": [
+    "task_id",
+    "environment",
+    "objective",
+    "inputs"
+  ]
+}

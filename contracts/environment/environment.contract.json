@@ -1,0 +1,9 @@
+{
+  "contract": "EnvironmentContract",
+  "version": "1.0",
+  "required": [
+    "environment_id",
+    "documentation_refs",
+    "specification_refs"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "contract": "SequenceContract",
+  "version": "1.0",
+  "required": [
+    "sequence_id",
+    "steps",
+    "expected_outcome"
+  ]
+}
