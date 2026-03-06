@@ -1,0 +1,9 @@
+{
+  "title": "Validation Result",
+  "type": "object",
+  "required": ["test_id","result"],
+  "properties": {
+    "test_id": {"type":"string"},
+    "result": {"type":"string"}
+  }
+}

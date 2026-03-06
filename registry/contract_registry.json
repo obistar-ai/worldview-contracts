@@ -1,0 +1,11 @@
+{
+  "contracts":[
+    "event.schema.json",
+    "rule.schema.json",
+    "action.schema.json",
+    "ledger.schema.json",
+    "policy.schema.json",
+    "resolution.schema.json",
+    "blueprint.schema.json"
+  ]
+}

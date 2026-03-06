@@ -1,0 +1,7 @@
+{
+  "title": "Analysis System",
+  "type": "object",
+  "properties": {
+    "data_sources": {"type":"array"}
+  }
+}

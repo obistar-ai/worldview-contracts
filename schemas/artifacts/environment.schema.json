@@ -1,0 +1,9 @@
+{
+  "title": "Environment Schema",
+  "type": "object",
+  "required": ["environment_id","capabilities"],
+  "properties": {
+    "environment_id": {"type":"string"},
+    "capabilities": {"type":"array"}
+  }
+}

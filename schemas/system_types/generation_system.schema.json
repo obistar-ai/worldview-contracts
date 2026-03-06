@@ -1,0 +1,7 @@
+{
+  "title": "Generation System",
+  "type": "object",
+  "properties": {
+    "generator_type": {"type":"string"}
+  }
+}

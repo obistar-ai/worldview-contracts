@@ -1,0 +1,9 @@
+{
+  "title": "Policy Schema",
+  "type": "object",
+  "required": ["policy_id","rules"],
+  "properties": {
+    "policy_id": {"type":"string"},
+    "rules": {"type":"array"}
+  }
+}

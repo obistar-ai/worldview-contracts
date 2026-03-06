@@ -1,0 +1,10 @@
+{
+  "title": "Control System",
+  "type": "object",
+  "properties": {
+    "components": {
+      "type": "array",
+      "items": {"type":"string"}
+    }
+  }
+}

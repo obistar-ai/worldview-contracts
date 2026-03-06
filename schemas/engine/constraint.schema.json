@@ -1,0 +1,11 @@
+{
+  "title": "Constraint Schema",
+  "type": "object",
+  "required": ["objective","scope","actor","environment"],
+  "properties": {
+    "objective": {"type":"string"},
+    "scope": {"type":"string"},
+    "actor": {"type":"string"},
+    "environment": {"type":"string"}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Action Schema",
+  "type": "object",
+  "required": ["action_id","description"],
+  "properties": {
+    "action_id": {"type":"string"},
+    "description": {"type":"string"}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Deterministic Resolution Contract",
+  "type": "object",
+  "required": [
+    "resolution_state",
+    "constraint_status",
+    "sequencing_status"
+  ],
+  "properties": {
+    "resolution_state": {
+      "type": "string",
+      "enum": ["TRUE","FALSE","UNKNOWN","STRUCTURAL_ERROR"]
+    },
+    "constraint_status": {
+      "type": "string",
+      "enum": ["COMPLETE","INCOMPLETE"]
+    },
+    "sequencing_status": {
+      "type": "string",
+      "enum": ["VALID","INVALID"]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

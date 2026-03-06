@@ -1,0 +1,7 @@
+{
+  "title": "Interface System",
+  "type": "object",
+  "properties": {
+    "ui_components": {"type":"array"}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Event Schema",
+  "type": "object",
+  "required": ["event_id","timestamp","source","type","payload"],
+  "properties": {
+    "event_id": {"type":"string"},
+    "timestamp": {"type":"string"},
+    "source": {"type":"string"},
+    "type": {"type":"string"},
+    "payload": {"type":"object"}
+  }
+}

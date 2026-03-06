@@ -1,0 +1,9 @@
+{
+  "title": "Blueprint",
+  "type": "object",
+  "required": ["system_type","components"],
+  "properties": {
+    "system_type": {"type":"string"},
+    "components": {"type":"array"}
+  }
+}

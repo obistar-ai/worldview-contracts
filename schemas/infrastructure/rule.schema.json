@@ -1,0 +1,10 @@
+{
+  "title": "Rule Schema",
+  "type": "object",
+  "required": ["rule_id","condition","action"],
+  "properties": {
+    "rule_id": {"type":"string"},
+    "condition": {"type":"string"},
+    "action": {"type":"string"}
+  }
+}

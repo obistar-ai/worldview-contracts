@@ -1,0 +1,10 @@
+{
+  "title": "Ledger Record",
+  "type": "object",
+  "required": ["event","decision","timestamp"],
+  "properties": {
+    "event": {"type":"string"},
+    "decision": {"type":"string"},
+    "timestamp": {"type":"string"}
+  }
+}
